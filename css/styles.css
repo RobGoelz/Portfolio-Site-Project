@@ -1,0 +1,96 @@
+/* common elements */
+
+body, html {
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+h1, h4 {
+  margin: 0;
+}
+
+header {
+  background: linear-gradient(to right, #2d3c49, #02b3e4);
+  height: 109px;
+  width: 100%;
+}
+
+hr {
+  background-color: #7d97ad;
+  height: 5px;
+  margin: 0;
+  width: 100%;
+}
+
+.logo {
+  float: left;
+  padding-left: 10px;
+}
+
+.name {
+  color: #2d3c49;
+  font-size: 30px;
+  padding-right: 10px;
+  text-align: right;
+}
+
+.byline {
+  color: #2d3c49;
+  font-size: 14px;
+  font-style: italic;
+  padding-right: 10px;
+  text-align: right;
+}
+
+.light-text {
+  color: #7d97ad;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.feat-p, a {
+  color: #2d3c49;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  text-align: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #02b3e4;
+  cursor: pointer;
+}
+
+a:visited {
+  color: #7d97ad;
+}
+
+.button{
+  border: solid 2px #fff;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-block;
+  height: 48px;
+  line-height: 48px;
+  width: 48px;
+}
+
+.button:hover{
+  background: #fff;
+  border: solid 2px #fff;
+  color: #042a2b;
+}
+
+footer {
+  background: #DCDCDC;
+  height: auto;
+  text-align: center;
+  width: 100%;
+}
