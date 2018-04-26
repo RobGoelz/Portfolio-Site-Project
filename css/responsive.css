@@ -84,11 +84,7 @@
     text-align: center;
   }
 
-  .first, .second {
-    width: 50%;
-  }
-
-  .third {
+  .first, .second, .third {
     width: 50%;
   }
 }
